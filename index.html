@@ -57,11 +57,11 @@
                 </li>
                 USUÁRIO:<p id="u"></p>
                 <script>
-                  var objeto = JSON.parse( sessionStorage.getItem('usuario'))
+                  var objeto = JSON.parse(sessionStorage.getItem('usuario'))
                   const paragrafo = document.querySelector('#nome')
                   paragrafo.textContent = `usuário: ${objeto}`
-                  </script>
-                </ul>
+                    </script>
+                  </ul>
               </form>
             </div>
         </div>
@@ -82,25 +82,27 @@
   </div>
 </div>
 
+
     <!-- Conteúdo -->
     <section class="container-conteudo container d-flex justify-content-around pt-5">
       <div class="menu-lateral p-3 rounded">
           <ul class="nav flex-column text-light p-2" >
               <li class="nav-item mb-2">
                   <input type="radio" name="radio-name" id="taguatinga">
-                  <label for="taguatinga">Taguatinga</label>
+                  <label for="taguatinga" style="color: #3572a4;">Taguatinga</label>
+
               </li>
               <li class="nav-item mb-2">
                   <input type="radio" name="radio-name" id="brasilia">
-                  <label for="brasilia">Brasília</label>
+                  <label for="brasilia" style="color: #3572a4;">Brasília</label>
               </li>
               <li class="nav-item mb-2">
                   <input type="radio" name="radio-name" id="gama">
-                  <label for="gama">Gama</label>
+                  <label for="gama" style="color: #3572a4">Gama</label>
               </li>
               <li class="nav-item mb-2">
                   <input type="radio" name="radio-name" id="sobradinho">
-                  <label for="sobradinho">Sobradinho</label>
+                  <label for="sobradinho" style="color: #3572a4">Sobradinho</label>
               </li>
           </ul>
       </div>
